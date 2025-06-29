@@ -36,3 +36,4 @@ ipython>=8.20.0
 
 # Deployment
 gunicorn>=21.2.0
+
