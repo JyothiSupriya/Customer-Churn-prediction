@@ -1,0 +1,118 @@
+{
+  "best_model": "Logistic Regression",
+  "model_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Test_Accuracy": 0.7508871540099361,
+      "Test_AUC": 0.8450334547521249,
+      "CV_AUC_Mean": 0.8476695260500573,
+      "CV_AUC_Std": 0.014828029782956236,
+      "Overfitting": 0.008627657710210235
+    },
+    {
+      "Model": "Random Forest",
+      "Test_Accuracy": 0.7707594038325053,
+      "Test_AUC": 0.8426438296003513,
+      "CV_AUC_Mean": 0.841844197862946,
+      "CV_AUC_Std": 0.01305077945566662,
+      "Overfitting": 0.09764864891181901
+    },
+    {
+      "Model": "XGBoost",
+      "Test_Accuracy": 0.7501774308019872,
+      "Test_AUC": 0.8369578134284017,
+      "CV_AUC_Mean": 0.8328762850487124,
+      "CV_AUC_Std": 0.011642680891805483,
+      "Overfitting": 0.11559628289493107
+    }
+  ],
+  "feature_importance": [
+    {
+      "Feature": "avg_monthly_charge",
+      "Importance": 0.7521576573012076
+    },
+    {
+      "Feature": "MonthlyCharges",
+      "Importance": 0.6271357182122778
+    },
+    {
+      "Feature": "low_monthly_charges",
+      "Importance": 0.4064238924669807
+    },
+    {
+      "Feature": "Internet_Fiber optic",
+      "Importance": 0.3653553093401928
+    },
+    {
+      "Feature": "Internet_DSL",
+      "Importance": 0.3068186995503304
+    },
+    {
+      "Feature": "premium_services",
+      "Importance": 0.30528106081806916
+    },
+    {
+      "Feature": "InternetService_risk_normalized",
+      "Importance": 0.27893888886225715
+    },
+    {
+      "Feature": "InternetService_risk",
+      "Importance": 0.27893888886225715
+    },
+    {
+      "Feature": "revenue_per_tenure_month",
+      "Importance": 0.2693489818723704
+    },
+    {
+      "Feature": "StreamingTV_binary",
+      "Importance": 0.2679212441657655
+    },
+    {
+      "Feature": "StreamingMovies_binary",
+      "Importance": 0.2672196174327299
+    },
+    {
+      "Feature": "is_new_customer",
+      "Importance": 0.24904417245891036
+    },
+    {
+      "Feature": "MultipleLines_binary",
+      "Importance": 0.24833601088976925
+    },
+    {
+      "Feature": "tenure_years",
+      "Importance": 0.2281300440283647
+    },
+    {
+      "Feature": "tenure",
+      "Importance": 0.22813004402836068
+    },
+    {
+      "Feature": "Contract_Two year",
+      "Importance": 0.20259352416462856
+    },
+    {
+      "Feature": "total_services",
+      "Importance": 0.2019935113223121
+    },
+    {
+      "Feature": "Contract_stability_normalized",
+      "Importance": 0.19957722697334151
+    },
+    {
+      "Feature": "Contract_stability",
+      "Importance": 0.19957722697334151
+    },
+    {
+      "Feature": "has_premium",
+      "Importance": 0.19601107407771795
+    }
+  ],
+  "business_metrics": {
+    "precision": 0.5198618307426598,
+    "recall": 0.8048128342245989,
+    "specificity": 0.7314009661835749,
+    "test_auc": 0.8450334547521249,
+    "test_accuracy": 0.7508871540099361
+  }
+}

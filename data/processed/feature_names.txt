@@ -1,0 +1,65 @@
+SeniorCitizen
+tenure
+MonthlyCharges
+TotalCharges
+Partner_encoded
+Dependents_encoded
+PhoneService_encoded
+PaperlessBilling_encoded
+Internet_DSL
+Internet_Fiber optic
+Internet_No
+InternetService_risk
+Contract_Month-to-month
+Contract_One year
+Contract_Two year
+Contract_stability
+Payment_Bank transfer (automatic)
+Payment_Credit card (automatic)
+Payment_Electronic check
+Payment_Mailed check
+PaymentMethod_risk
+OnlineSecurity_binary
+OnlineSecurity_available
+OnlineBackup_binary
+OnlineBackup_available
+DeviceProtection_binary
+DeviceProtection_available
+TechSupport_binary
+TechSupport_available
+StreamingTV_binary
+StreamingTV_available
+StreamingMovies_binary
+StreamingMovies_available
+MultipleLines_binary
+MultipleLines_available
+Tenure_Long
+Tenure_Loyal
+Tenure_Medium
+Tenure_New
+tenure_years
+is_new_customer
+avg_monthly_charge
+Charges_High
+Charges_Low
+Charges_Medium
+high_monthly_charges
+low_monthly_charges
+total_services
+services_available
+service_adoption_rate
+premium_services
+has_premium
+protection_services
+has_protection
+Contract_stability_normalized
+PaymentMethod_risk_normalized
+InternetService_risk_normalized
+composite_risk_score
+estimated_clv
+revenue_per_tenure_month
+spending_above_avg
+senior_short_contract
+family_size
+has_family
+full_service_customer

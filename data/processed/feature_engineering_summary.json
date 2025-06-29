@@ -1,0 +1,15 @@
+{
+  "original_shape": [
+    7043,
+    21
+  ],
+  "final_shape": [
+    7043,
+    65
+  ],
+  "features_created": 45,
+  "target_distribution": {
+    "0": 5174,
+    "1": 1869
+  }
+}
